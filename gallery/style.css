@@ -1,0 +1,25 @@
+.jumbotron {
+  background-color: #ccc;
+  padding-left: 180px;
+  color: black;
+}
+
+.navbar,
+navbar-default,
+navbar-fixed-top {
+  background-color: darkblue;
+  color: white;
+}
+
+.row {
+  padding-left: 150px;
+}
+
+a {
+  color: white;
+  padding-left: 20px;
+}
+  .nav {
+    padding-top: 10px;
+  }
+}
