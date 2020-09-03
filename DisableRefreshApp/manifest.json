@@ -1,0 +1,21 @@
+{
+  "name": "Disable Refresh Browser Shortcut",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Created By: Ibrahim Gurhan",
+  "icons": {
+    "128": "ibrahimLogo.png"
+  },
+  "browser_action": {
+    "default_icon": "ibrahimLogo.png",
+    "default_title": "Disable Refresh Button",
+    "default_popup": "popup.html"
+  },
+  "background": { "scripts": ["script.js"] },
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["https://meet.google.com/*", "https://*.remo.co/*"]
+    }
+  ]
+}
