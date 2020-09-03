@@ -1,7 +1,7 @@
 {
   "name": "Disable Refresh Browser Shortcut",
   "manifest_version": 2,
-  "version": "1.0",
+  "version": "2.0",
   "description": "Created By: Ibrahim Gurhan",
   "icons": {
     "128": "ibrahimLogo.png"
