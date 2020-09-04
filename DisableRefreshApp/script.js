@@ -1,3 +1,5 @@
+// This script will only run when you visit google meet hangsout or a remo video conference
+
 window.addEventListener("keydown", keysDown(actions));
 
 function actions() {
@@ -13,7 +15,6 @@ function keysDown() {
   return function (e) {
     if ((e.ctrlKey && e.code === "KeyR") || (e.metaKey && e.code === "KeyR")) {
       e.preventDefault();
-      console.log(e);
       console.log(" --- Refresh shortcut sucessfully blocked ---");
       actions();
     }
